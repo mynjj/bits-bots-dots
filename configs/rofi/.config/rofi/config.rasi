@@ -1,0 +1,7 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ combi-modi: "window,drun,ssh";
+ /*TODO: change terminal.. is it xdgs?run-shell-command: "{terminal} -e zsh -ic '{cmd} && read'";*/
+ run-shell-command: "{terminal} -e zsh -ic '{cmd}'";
+}
+@theme "/usr/share/rofi/themes/purple.rasi"

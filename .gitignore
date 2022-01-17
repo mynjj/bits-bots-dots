@@ -1,0 +1,5 @@
+# As I'm stowing `.emacs.d` directory, the elpa packages and other transient things inside it are created there as well..
+# TODO: evaluate better way, perhaps not adding a folder and changing stow target directory?
+
+configs/emacs/.emacs.d/*
+!configs/emacs/.emacs.d/init.el

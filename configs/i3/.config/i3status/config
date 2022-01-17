@@ -1,0 +1,45 @@
+general {
+  colors = true
+  interval = 5
+}
+
+order += "read_file doing"
+order += "battery all"
+order += "wireless _first_"
+order += "disk /"
+order += "memory"
+order += "cpu_usage"
+order += "volume master"
+order += "time"
+
+volume master{
+  format = "♪ %volume"
+}
+
+cpu_usage {
+  format = "CPU %usage"
+}
+
+disk /{
+  format = "HD %used/%total"
+  low_threshold = 8
+}
+
+wireless _first_ {
+  format_up = "W (%quality at %essid) %ip"
+  format_down = "W down"
+}
+
+memory {
+  format = "RAM %percentage_used"
+}
+
+battery all {
+  format = "%status %percentage"
+  low_threshold = 10
+}
+
+time {
+  format = "%Y-%m-%d %H:%M:%S %Z"
+}
+

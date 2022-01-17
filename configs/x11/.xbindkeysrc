@@ -1,0 +1,27 @@
+# Missing key functionalities on my ASUS
+# TODO: I'm not sure this is needed anymore
+"pactl set-sink-volume @DEFAULT_SINK@ +1000"
+ XF86AudioRaiseVolume
+
+"pactl set-sink-volume @DEFAULT_SINK@ -1000"
+ XF86AudioLowerVolume
+
+"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+ XF86AudioMute
+
+# Commonly used
+
+"emacs"
+ Shift+Mod4 + e
+
+"firefox"
+ Shift+Mod4 + w
+
+"toggle-xkeyboard-layout.sh"
+ Shift+Mod4 + y
+
+"vlc"
+ Shift+Mod4 + v
+
+"kitty"
+ Shift+Mod4 + Enter

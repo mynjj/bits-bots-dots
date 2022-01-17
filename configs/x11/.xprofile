@@ -1,0 +1,16 @@
+# User scripts
+# TODO: remove hardcoded dirname
+export PATH="$HOME/bits-bots-dots/scripts:$PATH"
+  
+# Keyboard layout
+setxkbmap us
+
+# Keyboard shortcuts
+#  (see .xbindkeysrc)
+xbindkeys
+
+# Compositor
+xcompmgr -c &
+
+# Wallpapers
+wallpaper-rotation.sh &
